@@ -232,7 +232,7 @@ async def 레이드초기화(ctx, raid_type):
 
 @app.command()
 async def 버전체크(ctx):
-    await ctx.send("Version 3.0")
+    await ctx.send("Version 3.0.1")
 
 
 @app.command()
