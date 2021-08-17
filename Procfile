@@ -1,1 +1,1 @@
-worker: python discordmain.py
+worker: python blackclawbot.py
