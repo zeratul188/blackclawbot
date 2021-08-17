@@ -309,4 +309,5 @@ async def 도움(ctx):
     embed.add_field(name='%%버전체크', value='현재 봇 버전을 체크합니다.', inline=False)
     await ctx.send(embed=embed)
 
-app.run('ODY1OTA3NjUyNDQ2MjU3MTYy.YPK1WA.yvlV3Wic3XE5lPCyF7mhrc-dpp0')
+app.run(os.environ['token'])
+# app.run('ODY1OTA3NjUyNDQ2MjU3MTYy.YPK1WA.yvlV3Wic3XE5lPCyF7mhrc-dpp0')
